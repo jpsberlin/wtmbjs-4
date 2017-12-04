@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1 The list of #{asana.length} asana in the set
+    each asana in asana
+        p #{asana.name}
+            strong #{asana.age}
